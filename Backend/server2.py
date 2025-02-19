@@ -9,9 +9,9 @@ import cv2
 import numpy as np
 from urllib.request import urlopen
 
-# 🔑 Load API Keys
-SCRAPINGDOG_API_KEY = '********'
-OPENAI_API_KEY = '*******'
+
+SCRAPINGDOG = '********'
+OPENAI = '*******'
 # 🎯 Initialize Flask App
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}}, supports_credentials=True)

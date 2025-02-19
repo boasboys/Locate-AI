@@ -10,9 +10,9 @@ import numpy as np
 from urllib.request import urlopen
 import tempfile
 
-# 🔑 Load API Keys
-SCRAPINGDOG_API_KEY = '*****'
-OPENAI_API_KEY = '*****'
+
+SCRAPINGDOG = '*****'
+OPENAI = '*****'
 
 CLOUDINARY_UPLOAD_PRESET = "Aa123456"  # Replace with your Cloudinary preset
 CLOUDINARY_URL = "https://api.cloudinary.com/v1_1/dbs8wrvlv/image/upload"
