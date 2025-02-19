@@ -11,8 +11,8 @@ from urllib.request import urlopen
 import tempfile
 
 # 🔑 Load API Keys
-SCRAPINGDOG_API_KEY = '67b37ecf22cdc44bb6aec4c7'
-OPENAI_API_KEY = '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'
+SCRAPINGDOG_API_KEY = '*****'
+OPENAI_API_KEY = '*****'
 
 CLOUDINARY_UPLOAD_PRESET = "Aa123456"  # Replace with your Cloudinary preset
 CLOUDINARY_URL = "https://api.cloudinary.com/v1_1/dbs8wrvlv/image/upload"
